@@ -1,0 +1,8 @@
+:root {
+  --highlight-font: "Nothing You Could Do", cursive;
+}
+
+h1 {
+  font-family: var(--highlight-font);
+  font-size: 65px;
+}
