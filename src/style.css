@@ -2,7 +2,14 @@
   --highlight-font: "Nothing You Could Do", cursive;
 }
 
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #236969;
+}
+
 h1 {
   font-family: var(--highlight-font);
   font-size: 65px;
+  color: white;
+  text-align: center;
 }
