@@ -15,6 +15,7 @@ h1 {
   font-size: 65px;
   color: white;
   text-align: center;
+  margin-top: 25px;
 }
 
 h2 {
@@ -29,6 +30,11 @@ p {
   opacity: 0.8;
 }
 
+.logo {
+  font-family: var(--highlight-font);
+  font-size: 30px;
+  color: white;
+}
 .navigation-links {
   text-decoration: none;
   color: white;
