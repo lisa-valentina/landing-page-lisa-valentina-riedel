@@ -13,3 +13,22 @@ h1 {
   color: white;
   text-align: center;
 }
+
+h2 {
+  font-size: 80px;
+  font-color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.navigation-links {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-family: var(--highlight-font);
+}
