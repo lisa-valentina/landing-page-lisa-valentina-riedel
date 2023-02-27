@@ -5,6 +5,9 @@
 body {
   font-family: "Barlow", sans-serif;
   background-color: #236969;
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -25,8 +28,6 @@ p {
 }
 
 .navigation-links {
-  display: block;
-  margin: auto;
   text-decoration: none;
   color: white;
   font-size: 26px;
