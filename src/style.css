@@ -19,12 +19,14 @@ h1 {
 
 h2 {
   font-size: 80px;
-  font-color: white;
   text-align: center;
+  margin-bottom: 50px;
+  opacity: 0.8;
 }
 
 p {
   color: white;
+  opacity: 0.8;
 }
 
 .navigation-links {
@@ -32,4 +34,5 @@ p {
   color: white;
   font-size: 26px;
   font-family: var(--highlight-font);
+  opacity: 0.8;
 }
