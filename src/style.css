@@ -1,5 +1,6 @@
 :root {
   --highlight-font: "Nothing You Could Do", cursive;
+  --highlight-color: #f7ca8c;
 }
 
 body {
@@ -25,9 +26,17 @@ h2 {
   opacity: 0.8;
 }
 
+h3 {
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
 p {
   color: white;
   opacity: 0.8;
+  font-weight: 200;
 }
 
 .logo {
@@ -41,4 +50,13 @@ p {
   font-size: 26px;
   font-family: var(--highlight-font);
   opacity: 0.8;
+}
+
+.button-design {
+  background-color: var(--highlight-color);
+  font-family: var(--highlight-font);
+}
+
+.button-design:hover {
+  background-color: var(--highlight-color);
 }
