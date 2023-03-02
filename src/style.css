@@ -60,3 +60,7 @@ p {
 .button-design:hover {
   background-color: var(--highlight-color);
 }
+
+.picture-grid {
+  background-color: rgba(255, 255, 255, 0.2);
+}
