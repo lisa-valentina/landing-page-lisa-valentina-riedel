@@ -97,6 +97,7 @@ p {
   font-family: var(--highlight-font);
   font-size: 30px;
   color: white;
+  opacity: 0.65;
 }
 .menu {
   list-style: none;
@@ -121,6 +122,10 @@ p {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.icons {
+  color: var(--highlight-color);
+  padding: 5px;
+}
 @media (max-width: 577px) {
   h1 {
     font-size: 38px;
