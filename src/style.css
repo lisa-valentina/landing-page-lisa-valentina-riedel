@@ -125,6 +125,7 @@ p {
 .icons {
   color: var(--highlight-color);
   padding: 5px;
+  opacity: 0.8;
 }
 @media (max-width: 577px) {
   h1 {
