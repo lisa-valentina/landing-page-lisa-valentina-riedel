@@ -138,6 +138,14 @@ p {
   display: none;
 }
 
+.sub-item {
+  text-indent: 20%;
+}
+@media (min-width: 578px) {
+  #myTopnav {
+    display: none;
+  }
+}
 @media (max-width: 577px) {
   h1 {
     font-size: 38px;
@@ -193,36 +201,29 @@ p {
     display: block;
     text-align: left;
   }
+  .active {
+    opacity: 1;
+  }
 }
 
 /*menu icon positioning is off when clicked, menu does not show when clicked, background dropdown does not show
 /*Überlegung: zweites Menu einarbeiten, nur mit a ohne ul/li und das immer verstecken, nur bei miniscreen anzeigen lassen, dan ohne dropdown und zwei ebenen eingezogen*/
 
 .topnav {
-  overflow: hidden;
   background-color: #236969;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
+  /* position: relative;*/
 }
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
-  padding: 14px 16px;
+  opacity: 0.5;
   text-decoration: none;
-  font-size: 17px;
-  display: block;
+  font-size: 16px;
 }
 
 /* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
+.topnav a.menu-icon {
   display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+  font-size: 20px;
+  line-height: 30px;
 }
