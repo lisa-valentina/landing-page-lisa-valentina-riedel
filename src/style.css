@@ -74,10 +74,12 @@ h3,
 p {
   opacity: 0.8;
 }
+
 h1 {
   font-family: var(--highlight-font);
   font-size: 65px;
 }
+
 h2 {
   font-size: 80px;
   margin-bottom: 30px;
@@ -88,6 +90,7 @@ h3 {
   font-style: italic;
   font-weight: 400;
 }
+
 h4 {
   font-weight: 300;
   opacity: 0.5;
@@ -123,7 +126,6 @@ p {
   cursor: pointer;
   display: list-item;
 }
-
 .navigation-links {
   text-decoration: none;
   color: white;
