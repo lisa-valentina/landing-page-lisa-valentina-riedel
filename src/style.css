@@ -107,7 +107,7 @@ p {
   font-family: var(--highlight-font);
 }
 .button-design:hover {
-  background-color: var(--highlight-color);
+  border: 2px solid var(--highlight-color);
 }
 
 .active {
@@ -169,6 +169,13 @@ p {
 .sub-item {
   text-indent: 20%;
 }
+
+.cert-links {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
 @media (min-width: 578px) {
   #myTopnav {
     display: none;
@@ -185,7 +192,8 @@ p {
   .container {
     padding: 25px;
   }
-  .img-home {
+  .img-home,
+  .coding-img {
     display: none;
   }
   .menu-icon {
@@ -196,6 +204,10 @@ p {
     line-height: 30px;
   }
 
+  /* .picture-grid {
+    border: none;
+    background: #236969;
+  }*/
   .hide {
     display: none;
   }
@@ -233,6 +245,10 @@ p {
     opacity: 1;
     text-decoration: underline;
     text-decoration-color: var(--highlight-color);
+  }
+  .cert-links {
+    display: block;
+    margin: 10px 0px;
   }
 }
 
