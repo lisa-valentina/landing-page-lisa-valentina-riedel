@@ -30,33 +30,41 @@
   </head>
   <body>
     <nav class="d-flex justify-content-between">
-      <a href="index.html"><span class="logo">LVR</span></a>
+      <a href="index.html" title="Homepage"><span class="logo">LVR</span></a>
       <ul>
-        <li class="menu-item hide"><a href="index.html">Home</a></li>
-        <li class="menu-item hide"><a href="about.html">About</a></li>
+        <li class="menu-item hide">
+          <a href="index.html" title="Homepage">Home</a>
+        </li>
+        <li class="menu-item hide">
+          <a href="about.html" title="About page">About</a>
+        </li>
         <li class="dropdown">
-          <a href="projects.html" class="menu-item hide"
+          <a href="projects.html" title="Projects page" class="menu-item hide"
             >Projects <i class="fa-solid fa-caret-down"></i
           ></a>
           <div class="dropdown-content">
-            <a href="coding.html">Coding</a>
-            <a href="crafting.html">Crafting</a>
+            <a href="coding.html" title="Coding Projects page">Coding</a>
+            <a href="crafting.html" title="Crafting Projects page">Crafting</a>
           </div>
         </li>
         <li class="menu-item hide active">
-          <a href="#">Contact</a>
+          <a href="#" title="Contact page">Contact</a>
         </li>
       </ul>
       <div class="topnav" id="myTopnav">
         <a href="javascript:void(0);" class="menu-icon" onclick="convertMenu()">
           <i class="fa-solid fa-bars"> </i>
         </a>
-        <a href="index.html"> Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="coding.html" class="sub-item">Coding</a>
-        <a href="crafting.html" class="sub-item">Crafting</a>
-        <a href="contact.html" class="active">Contact</a>
+        <a href="index.html" title="Homepage"> Home</a>
+        <a href="about.html" title="About page">About</a>
+        <a href="projects.html" title="Projects page">Projects</a>
+        <a href="coding.html" title="Coding Projects page" class="sub-item"
+          >Coding</a
+        >
+        <a href="crafting.html" title="Crafting Projects page" class="sub-item"
+          >Crafting</a
+        >
+        <a href="contact.html" title="Contact page" class="active">Contact</a>
       </div>
     </nav>
     <div class="container">
@@ -66,7 +74,7 @@
           <h3>LinkedIn</h3>
           <a
             href="http://www.linkedin.com/in/lisa-valentina-riedel"
-            target="_blank"
+            title="LinkedIn page"
             target="_blank"
             class="btn button-design"
             >Let's get connected on LinkedIn</a
@@ -74,19 +82,23 @@
           <h3>GitHub</h3>
           <a
             href="https://github.com/lisa-valentina"
+            title="GitHub page"
             target="_blank"
             class="btn button-design"
             >Check out my projects on GitHub</a
           >
           <h3>Email</h3>
-          <a href="mailto:lisa.riedel@gmail.com" class="btn button-design"
+          <a
+            href="mailto:lisa.riedel@gmail.com"
+            title="Contact Email"
+            class="btn button-design"
             >Write me an Email</a
           >
         </div>
         <div class="col-sm-5 d-none d-md-block d-flex align-items-center">
           <img
             src="images/undraw_businesswoman_re_5n6b.svg"
-            alt=""
+            alt="Graphic to visualize a business woman"
             class="img-fluid"
           />
         </div>
