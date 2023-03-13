@@ -71,7 +71,8 @@ h2 {
 
 h2,
 h3,
-p {
+p,
+.icon-name {
   opacity: 0.8;
 }
 
@@ -102,6 +103,10 @@ p {
   text-align: justify;
 }
 
+.icon-name {
+  font-weight: 200;
+  text-align: center;
+}
 .button-design {
   background-color: var(--highlight-color);
   font-family: var(--highlight-font);
